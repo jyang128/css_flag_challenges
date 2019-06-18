@@ -1,0 +1,33 @@
+.flag-container{
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    overflow: hidden;
+}
+.flag-container > div:nth-child(odd){
+    background-color: darkblue;
+    height: 8vw;
+}
+.flag-container > div:nth-child(even){
+    background-color: white;
+    height: 8vw;
+}
+.red {
+    background-color: red;
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    top: -7%;
+    left: -38%;
+    transform-origin: center center;
+    transform: rotateZ(32deg) skew(-27deg);
+}
+.red::before {
+    content: '\2605';
+    font-size: 10vw;
+    color: white;
+    position: absolute;
+    top: 8%;
+    right: 11%;
+    transform: rotateZ(28deg) skew(0deg);
+}

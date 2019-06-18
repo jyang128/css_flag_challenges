@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    height: 50vw;
+    background-color: white;
+}
+.upper-half {
+    width: 100vw;
+    height: 25vw;
+}
+.lower-half {
+    width: 100vw;
+    height: 25vw;
+    background-color: red;
+}
+.star-container {
+    width: 25vw;
+    height: 25vw;
+    background-color: #222eb0;
+    position: relative;
+}
+.star-container::before{
+    content: '\2605';
+    font-size: 14vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

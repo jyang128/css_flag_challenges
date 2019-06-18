@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.spacer {
+    height: 20px;
+}
+.flag-container {
+    width: 50vw;
+    height: 25vw;
+    border: 1px solid #9a9a9a;
+}
+.red-indo {
+    background-color: red;
+    height: 170px;
+}
+.white-indo {
+    background-color: white;
+    height: 170px;
+}
+.yellow-colombia {
+    background-color: yellow;
+    height: 50%;
+}
+.blue-colombia {
+    background-color: blue;
+    height: 25%;
+}
+.red-colombia {
+    background-color: red;
+    height: 25%;
+}

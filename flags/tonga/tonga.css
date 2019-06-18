@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    height: 50vw;
+    background-color: #c42525;
+}
+.white-container {
+    width: 50vw;
+    height: 25vw;
+    background-color: white;
+}
+.inner-container{
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+.vertical {
+    background-color: #c42525;
+    height: 70%;
+    width: 6vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.horizontal {
+    background-color: #c42525;
+    width: 70%;
+    height: 6vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}

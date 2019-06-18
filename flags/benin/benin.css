@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    height: 50vw;
+    border: 1px solid gray;
+}
+.container1 {
+    width: 35vw;
+    height: 50vw;
+    float: left
+}
+.container2 {
+    width: 65vw;
+    height: 50vw;
+    float: left
+}
+.green {
+    height: 50vw;
+    background-color: green;
+}
+.yellow {
+    height: 50%;
+    background-color: #ffbd17;
+}
+.red {
+    height: 50%;
+    background-color: red;
+}

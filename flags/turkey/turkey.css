@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    height: 50vw;
+    background-color: red;
+    position: relative;
+}
+.circle{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.inner-circle {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+.inner-circle::before {
+    content: '\2605';
+    font-size: 18vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 120%;
+    transform: translate(-50%, -50%) rotateZ(-10deg);
+}

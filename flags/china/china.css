@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flag-container{
+    width: 100vw;
+    height: 50vw;
+    background-color: red;
+    position: relative;
+}
+.upper-container{
+    width: 100vw;
+    height: 25vw;
+    font-size: 15vw;
+    color: #e1bd2d;
+    position: absolute;
+    left: 5%;
+    margin: auto;
+}
+.rotator {
+    transform-origin: top left;
+    height: 1vw;
+    width: 16vw;
+    color: #e1bd2d;
+    font-size: 5vw;
+    text-align: right;
+    position: absolute;
+    top: 21%;
+    left: 12%;
+}
+.one {
+    transform: rotateZ(-40deg);
+}
+.two {
+    transform: rotateZ(-18deg);
+}
+.three {
+    transform: rotateZ(8deg);
+}
+.four {
+    transform: rotateZ(30deg);
+}

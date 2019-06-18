@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    height: 50vw;
+    background-color: white;
+    position: relative;
+}
+.flag-container > div:nth-child(odd){
+    background-color: #0d5eaf;
+    height: 7vw;
+}
+.flag-container > div:nth-child(even){
+    background-color: white;
+    height: 7vw;
+}
+.logo-container {
+    height: 35vw;
+    width: 35vw;
+    background-color: #0d5eaf;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.vertical{
+    background-color: white;
+    width: 7vw;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+}
+.horizontal{
+    background-color: white;
+    width: 100%;
+    height: 7vw;
+    position: absolute;
+    top: 40%;
+}

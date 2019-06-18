@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container{
+    width: 100vw;
+    height: 48vw;
+    position: relative;
+    overflow: hidden;
+}
+.black {
+    background-color: black;
+    height: 16vw;
+}
+.white {
+    background-color: white;
+    height: 16vw;
+}
+.green {
+    background-color: green;
+    height: 16vw;
+}
+.red {
+    background-color: red;
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    top: -2%;
+    left: -34%;
+    transform-origin: center center;
+    transform: rotateZ(38deg) skew(-14deg);
+}
+.circle{
+    background-color: red;
+    border-radius: 50%;
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.inner-circle{
+    background-color: white;
+    border-radius: 50%;
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    transform: translateX(-50%);
+}
+.inner-circle::before {
+    content: '\2605';
+    font-size: 10vw;
+    color: red;
+    position: absolute;
+    left: 8%;
+    top: -3%;
+}

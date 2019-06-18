@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    height: 50vw;
+    border: 1px solid #9a9a9a;
+}
+.yellow {
+    background-color: yellow;
+    height: 50%;
+}
+.blue {
+    background-color: blue;
+    height: 25%;
+}
+.red {
+    background-color: red;
+    height: 25%;
+}

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    border: 1px solid #9a9a9a;
+}
+.red {
+    background-color: red;
+    height: 300px;
+}
+.white {
+    background-color: white;
+    height: 300px;
+}

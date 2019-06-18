@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container {
+    width: 100vw;
+    height: 50vw;
+    border: 1px solid #9a9a9a;
+    font-size: 0;
+}
+.blue {
+    background-color: #170080;
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
+}
+.white {
+    background-color: white;
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
+}
+.red {
+    background-color: #a52719;
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
+}

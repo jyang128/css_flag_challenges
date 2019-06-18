@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flag-container{
+    width: 100vw;
+    height: 48vw;
+    position: relative;
+    overflow: hidden;
+}
+.black {
+    background-color: black;
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    top: -2%;
+    left: -34%;
+    transform-origin: center center;
+    transform: rotateZ(38deg) skew(-14deg);
+} 
+.red {
+    background-color: red;
+    height: 16vw;
+}
+.white {
+    background-color: white;
+    height: 16vw;
+}
+.green {
+    background-color: green;
+    height: 16vw;
+}
+.stripe {
+    background-color: white;
+    height: 16vw;
+    width: 85vw;
+    position: absolute;
+    top: 33%;
+    left: 21%;
+}
+
